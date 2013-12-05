@@ -9,8 +9,7 @@ The Steady State Simulator merges the two previous simulators - Steady State Cor
 
 INPUTS:
 ========================================================================================================================
-Vehicle Model
-    % Vehicle
+% Vehicle Model
     Total_Mass = 1200;% Kg
     US_Mass_f = 40;% Kg
     US_Mass_r = 46;% Kg
