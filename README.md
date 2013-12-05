@@ -9,7 +9,7 @@ The Steady State Simulator merges the two previous simulators - Steady State Cor
 
 INPUTS:
 ========================================================================================================================
-% Vehicle Model
+    % Vehicle Model
     Total_Mass = 1200;% Kg
     US_Mass_f = 40;% Kg
     US_Mass_r = 46;% Kg
@@ -59,12 +59,12 @@ INPUTS:
     c2=[-0.00022, -0.00027];% Tire model parameters
     c1=[2.1, 2.3];% Tire model parameters
     c0=[100, 250];% Tire model parameters
- 
+
     % Scenario
     air_t = 23;% C degrees
     atm_p = 1000;% mbar
-    
-Circuit Model
+
+    % Circuit Model
     track_length = 500; % m
     Distance = 	   [0, 200, 210, 220, 225, 230, 280, 285, 300, 310, 325, 335];
     Corner_Radius = [0, 120, 110, 100, 110, 0,   90,  85,  80,  70,  75,  0];
@@ -88,21 +88,21 @@ The best setup configuration will be the combination that has the smallest aggre
 
 OUTPUT:
 ========================================================================================================================
-  The quickest time for this circuit is 1.014755e+001 seconds for the following configuration:
-  Total Mass: 1200 Kg, US Mass F: 40 Kg, US Mass R: 46 Kg
-  Wheelbase: 2.890000e+000 m, Weight Distribution: 5.500000e-001
-  Track F: 1.698000e+000 m, Track R: 1.620000e+000 m
-  Hcg: 4.500000e-001 m, Hrf: 0 m, Hrr: 0 m, Huf: 3.300000e-001 m, Hur: 3.550000e-001 m
-  Torque-RPM:
-    r_torque = 300 330 370 400 450 470 520 580 620 660 680 670 640 620 600 590 		570
-    r_rpm = 2000 2500 3000 3500 4000 4500 5000 5500 6000 6500 7000 7500 8000 		8500 9000 9500 10000
-  Gear Ratios: 3.1000    2.3000    1.9000    1.7000    1.5000    1.4000
-  Final Ratio: 2.800000e+000
-  Tire Radius: 3.550000e-001 m, Brakes G Force: 1 G, Rolling Coef: 3.960000e-001
-  MR Wheel Spring F: 1, MR Wheel Spring R: 1
-  MR ARB F: 8.000000e-001, MR ARB R: 8.000000e-001
-  K Spring F: 507500 N, K Spring R: 625000 N
-  K ARB F: 325000 N, K ARB R: 400000 N
-  Downforce Coef: 1.400000e+000, Drag Coef: 3.000000e-001, Area: 1.375000e+000
-  K Tire F: 95000 N, K Tire R: 95000 N
-  Air temp: 23 ºC, Atm P: 1000 mbar
+      The quickest time for this circuit is 1.014755e+001 seconds for the following configuration:
+      Total Mass: 1200 Kg, US Mass F: 40 Kg, US Mass R: 46 Kg
+      Wheelbase: 2.890000e+000 m, Weight Distribution: 5.500000e-001
+      Track F: 1.698000e+000 m, Track R: 1.620000e+000 m
+      Hcg: 4.500000e-001 m, Hrf: 0 m, Hrr: 0 m, Huf: 3.300000e-001 m, Hur: 3.550000e-001 m
+      Torque-RPM:
+        r_torque = 300 330 370 400 450 470 520 580 620 660 680 670 640 620 600 590 		570
+        r_rpm = 2000 2500 3000 3500 4000 4500 5000 5500 6000 6500 7000 7500 8000 		8500 9000 9500 10000
+      Gear Ratios: 3.1000    2.3000    1.9000    1.7000    1.5000    1.4000
+      Final Ratio: 2.800000e+000
+      Tire Radius: 3.550000e-001 m, Brakes G Force: 1 G, Rolling Coef: 3.960000e-001
+      MR Wheel Spring F: 1, MR Wheel Spring R: 1
+      MR ARB F: 8.000000e-001, MR ARB R: 8.000000e-001
+      K Spring F: 507500 N, K Spring R: 625000 N
+      K ARB F: 325000 N, K ARB R: 400000 N
+      Downforce Coef: 1.400000e+000, Drag Coef: 3.000000e-001, Area: 1.375000e+000
+      K Tire F: 95000 N, K Tire R: 95000 N
+      Air temp: 23 ºC, Atm P: 1000 mbar;
