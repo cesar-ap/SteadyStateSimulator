@@ -28,7 +28,7 @@ INPUTS:
     RPM = [2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500,9000,9500,10000];
     % Torque and RPM arrays must have the same length
     Gear_Ratios = [3.1, 2.3, 1.9, 1.7, 1.5, 1.4];
-    % Gear Ratios, Torque and RPM admit multiple sets i.e. Gear_Ratios = [[a, b, c, d, e, f];[g, h, i, j, k, l]] but        these are taken in sets (a,b,c,d,e,f) for one iteration and (g,h,i,j,k,l) for the next one.
+    % Gear Ratios, Torque and RPM admit multiple sets i.e. Gear_Ratios = [[a, b, c, d, e, f];[g, h, i, j, k, l]] but these are taken in sets (a,b,c,d,e,f) for one iteration and (g,h,i,j,k,l) for the next one.
     Final_Ratio = 2.8;
     Tire_Radious = hur;% m
     Brakes_G_Force = 1; % G
